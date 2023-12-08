@@ -2,7 +2,7 @@ import React from 'react'
 
 const ContentContainer = () => {
   return (
-    <div>ContentContainerrr</div>
+    <div>ContentContainer</div>
   )
 }
 

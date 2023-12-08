@@ -2,7 +2,7 @@ import React from 'react'
 
 const Channelbar = () => {
   return (
-    <div>Channelbarrr</div>
+    <div>Channelbar</div>
   )
 }
 
