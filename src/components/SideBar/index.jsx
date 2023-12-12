@@ -1,4 +1,3 @@
-import React from 'react';
 import { BsPlus, BsFillLightningFill, BsGearFill } from 'react-icons/bs';
 import { FaFire, FaPoo } from 'react-icons/fa';
 
@@ -19,14 +18,15 @@ const SideBar = () => {
 };
 
 const SideBarIcon = ({ icon, text = 'tooltip 💡' }) => (
-  <div className='sidebar-icon group'>
+  <div className="sidebar-icon group">
     {icon}
-    <span className='sidebar-tooltip group-hover:scale-100'>
+    <span className="sidebar-tooltip group-hover:scale-100">
       {text}
     </span>
   </div>
 );
 
-const Divider = () => <hr className='sidebar-hr' />;
 
-export default SideBar
+const Divider = () => <hr className="sidebar-hr" />;
+
+export default SideBar;
